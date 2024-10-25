@@ -9,9 +9,9 @@
 
 /* Color Variables */
 :root {
-    --primary-color: #272838;      /* Raisin Black */
+    --primary-color: #05060a;      /* Raisin Black */
     --secondary-color: #5D536B;    /* English Violet */
-    --accent1-color: #7D6B91;      /* Promp and Power */
+    --accent1-color: #b5abc2;      /* Promp and Power */
     --accent2-color: #989FCE;      /* Cool Gray */
 
     --heading-font: 'Poppins', sans-serif;
@@ -341,7 +341,7 @@ section figcaption {
 
 footer {
     margin-top: 20px;
-    border-top: 1px solid var(--primary-color);
+    border-top: 1px solid steelblue;
     display: flex;
     align-items: center;
     padding: 10px 20px;
