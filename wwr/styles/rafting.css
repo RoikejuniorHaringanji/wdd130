@@ -362,7 +362,14 @@ footer .sociallinks {
 .sociallinks a {
     margin: 0 10px;
 }
-
+.sociallinks img {
+    width: 50px;
+    height: auto;
+}
+.sociallinks img {
+    width: 30px;
+    height: auto;
+}
 sociallinks img {
     width: 30px;
     height: 30px;
@@ -385,15 +392,6 @@ sociallinks img {
     border-radius: 10px;
 }
 
-/* .team {
-    display: flex;
-    /* justify-content: space-between; Space between each team member */
-    /* flex-wrap: wrap; Allow wrapping to prevent overflow */
-    /* margin-bottom: 40px; */
-    /* gap: 20px; Adds consistent spacing between elements */
-    /* align-items: flex-start; Align team members to the top */
-/* } */ */
-
 .team {
     display: flex;
     flex-direction: column;
@@ -403,15 +401,10 @@ sociallinks img {
     position: relative;
 }
 
-.team h2{
+.team h2 {
     position: relative;
     z-index: 1;
     padding: 10px 20px;
-
-    /* width: 200px; Control the width of each team member */
-    /* text-align: center; */
-    /* margin: 0 20px; Adds margin between the team members */
-    /* display: flex; */
 }
 
 .team-profiles {
@@ -420,28 +413,23 @@ sociallinks img {
     align-items: center;
     position: relative;
     border-radius: 10px;
-
-    /* width: 100%; */
-    /* border-radius: 10px; */
-    /* height: 200px; Fixed height */
-    /* object-fit: cover; Keep image aspect ratio */
 }
 
 .team figcaption {
-    margin-top: 10px; /* Space between image and caption */
+    margin-top: 10px;
     font-size: 0.9em;
-    color: var(--primary-color); /* Adjust this based on your theme */
+    color: var(--primary-color);
 }
 
-/* Media query to make it responsive for smaller screens */
+/* Media query for responsive design */
 @media (max-width: 768px) {
     .team {
-        flex-direction: column; /* Stack vertically on smaller screens */
-        align-items: center; /* Center the team members */
+        flex-direction: column;
+        align-items: center;
     }
     
     .team figure {
-        width: 100%; /* Expand to full width on smaller screens */
+        width: 100%;
     }
 }
 
