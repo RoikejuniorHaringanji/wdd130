@@ -9,9 +9,9 @@
 
 /* Color Variables */
 :root {
-    --primary-color: #05060a;      /* Raisin Black */
-    --secondary-color: #5D536B;    /* English Violet */
-    --accent1-color: #b5abc2;      /* Promp and Power */
+    --primary-color: #080a14;      /* Raisin Black */
+    --secondary-color: #8d8696;    /* English Violet */
+    --accent1-color: #efeaf3;      /* Promp and Power */
     --accent2-color: #989FCE;      /* Cool Gray */
 
     --heading-font: 'Poppins', sans-serif;
@@ -262,6 +262,7 @@ section img {
     height: 125px;
     border-radius: 10px;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 section figcaption {
@@ -505,7 +506,7 @@ sociallinks img {
     grid-column: span 2;
     padding: 10px;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: black;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -514,7 +515,7 @@ sociallinks img {
 }
 
 .contact-form button:hover {
-    background-color: var(--accent2-color);
+    background-color: black;
 }
 
 /* Responsive adjustments for smaller screens on Contact page */
