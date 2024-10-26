@@ -391,7 +391,6 @@ sociallinks img {
     height: 300px;
     border-radius: 10px;
 }
-
 .team {
     display: flex;
     flex-direction: column;
@@ -430,6 +429,18 @@ sociallinks img {
     
     .team figure {
         width: 100%;
+    }
+}
+
+/* Media query to make it responsive for smaller screens */
+@media (max-width: 768px) {
+    .team {
+        flex-direction: column; /* Stack vertically on smaller screens */
+        align-items: center; /* Center the team members */
+    }
+    
+    .team figure {
+        width: 100%; /* Expand to full width on smaller screens */
     }
 }
 
