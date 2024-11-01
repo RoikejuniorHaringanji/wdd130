@@ -864,9 +864,6 @@ sociallinks img {
     }
 }
 
-.testimonial-slide {
-    animation: slideIn 0.5s ease forwards;
-}
   .hero4 {
     background-image: url('images/trips-hero.webp');
     background-size: cover;
